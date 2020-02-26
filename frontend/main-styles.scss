@@ -1,0 +1,34 @@
+//import fonts
+@import url('https://fonts.googleapis.com/css?family=Special+Elite&display=swap');
+//set colors
+$turquoise : #ffcba1;
+$green : #ff792b;
+$light-green : #45f69e;
+$dark-green : rgb(0, 100, 80);
+
+$light : #f8f8f8;
+
+//update bulma
+$family-sans-serif : 'Special Elite', cursive;
+$primary : $green;
+$link : $light-green;
+
+//set custom global styles
+html{
+    background: linear-gradient(to right top, $turquoise, $green);
+}
+.is-active{
+    background: $green;
+    color: $turquoise;
+}
+html, body{
+    height: 100%;
+}
+.centered-content{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    position: relative;
+}
